@@ -1,9 +1,9 @@
-import { Controller, Get } from "routing-controllers";
+import { Controller, Post, Get, Param, Body } from "routing-controllers";
 
 @Controller()
 export class HwrController {
-    @Get("/text")
-    public text = () => {
-        return "Hello Express";
-    };
+    @Post("/text")
+    public text(@Body() strokes: Strokes) {
+        return JSON.stringify(strokes);
+    }
 }

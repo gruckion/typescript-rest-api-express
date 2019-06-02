@@ -19,6 +19,7 @@ try {
         controllers: [__dirname + "/controllers/*.ts"],
         routePrefix: "/api",
         cors: true,
+        classTransformer: true,
         defaults: {
             //with this option, null will return 404 by default
             nullResultCode: 404,
