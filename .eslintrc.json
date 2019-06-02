@@ -1,0 +1,39 @@
+{
+  "extends": [
+    "typescript",
+    "typescript/react",
+    "typescript/prettier-react"
+  ],
+  "plugins": [
+    "filenames",
+    "jest"
+  ],
+  "env": {
+    "jest": true,
+    "node": true,
+    "browser": true,
+    "es6": true
+  },
+  "rules": {
+    "@typescript-eslint/no-unused-vars": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "filenames/match-exported": [
+      "error",
+      "kebab"
+    ],
+    "jest/no-disabled-tests": "error",
+    "jest/no-focused-tests": "error",
+    "jest/no-identical-title": "error",
+    "jest/valid-expect": "error",
+    "prettier/prettier": [
+      "error",
+      {
+        "trailingComma": "none",
+        "tabWidth": 4,
+        "semi": true,
+        "singleQuote": false
+      }
+    ]
+  }
+}
