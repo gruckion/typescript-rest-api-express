@@ -1,6 +1,7 @@
 import { Router } from "express";
+import { hwrRoute } from "./hwr";
 
 export const routes = Router();
 
 // Respond to all routes with text
-routes.use("/", (req, res) => res.send("Hello Express"));
+routes.use("/hwr", hwrRoute);

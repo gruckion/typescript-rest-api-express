@@ -23,6 +23,7 @@
     "typescript": "^3.6.0-dev.20190602"
   },
   "dependencies": {
+    "@types/express": "^4.16.1",
     "@typescript-eslint/eslint-plugin": "^1.9.0",
     "@typescript-eslint/parser": "^1.9.0",
     "cors": "^2.8.5",
