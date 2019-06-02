@@ -1,7 +1,9 @@
-import { Request, Response } from "express";
+import { Controller, Get } from "routing-controllers";
 
+@Controller()
 export class HwrController {
-    public static text = async (req: Request, res: Response) => {
-        res.send("Hello Express");
+    @Get("/text")
+    public text = () => {
+        return "Hello Express";
     };
 }
