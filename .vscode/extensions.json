@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "editorconfig.editorconfig",
+        "moshfeu.auto-npm-install"
+    ],
+    "unwantedRecommendations": [
+        "hookyqr.beautify",
+        "dbaeumer.jshint"
+    ]
+}
