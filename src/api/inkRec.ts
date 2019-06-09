@@ -1,7 +1,7 @@
 import * as MyScript from "myscript";
 import { Strokes } from "../models/Strokes";
-import { jixxModelBuilderDto } from "../models/jixxModelBuilder";
-import { RecognizerContext } from "../models/recognizerContext";
+import { jixxModelBuilderDto } from "../builders/jixxModelBuilder";
+import { RecognizerContext } from "../builders/recognizerContextBuilder";
 
 const convertBlobToBase64 = (blob: any) =>
     new Promise((resolve, reject) => {

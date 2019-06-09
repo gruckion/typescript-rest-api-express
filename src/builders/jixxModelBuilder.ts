@@ -1,4 +1,4 @@
-import { Strokes } from "./Strokes";
+import { Strokes } from "../models/Strokes";
 
 export const jixxModelBuilderDto = (strokes: Strokes[]) => {
     return [
