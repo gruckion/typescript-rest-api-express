@@ -1,6 +1,6 @@
 type Stroke = "stroke";
 
-interface Strokes {
+export interface Strokes {
     x: number[];
     y: number[];
     t: number[];
